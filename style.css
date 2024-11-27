@@ -18,4 +18,9 @@ h1{ color: red;
  
  .highlight2 {background-color: skyblue
  
- 
+  .image-container {
+    text-align: center; /* Centre le contenu à l'intérieur */
+  }
+  .center-img {
+    display: inline-block; /* S'assure que l'image suit la règle de centrage */
+  }  
