@@ -17,13 +17,13 @@ h1{ color: red;
  }
  
  .highlight2 {background-color: skyblue
+  
   .image-container {
     display: flex;         /* Active le modèle Flexbox */
     justify-content: center; /* Centre les enfants horizontalement */
     align-items: center;   /* Centre les enfants verticalement (facultatif si nécessaire) */
-  }
-  
+ } 
   .center-img {
     display: block; /* Optionnel, mais utile pour s'assurer que l'image suit les règles */
-  }
+ }
   
