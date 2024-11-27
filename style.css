@@ -18,12 +18,42 @@ h1{ color: red;
  
  .highlight2 {background-color: skyblue
   
-  .image-container {
-    display: flex;         /* Active le modèle Flexbox */
-    justify-content: center; /* Centre les enfants horizontalement */
-    align-items: center;   /* Centre les enfants verticalement (facultatif si nécessaire) */
- } 
-  .center-img {
-    display: block; /* Optionnel, mais utile pour s'assurer que l'image suit les règles */
- }
-  
+  .fin-vie {
+    background-color: #f9f9f9; /* Arrière-plan gris clair */
+    border-left: 5px solid #2d89ef; /* Bordure bleue à gauche pour marquer cette section */
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour de la section */
+}
+
+.fin-vie h2 {
+    font-family: 'Merriweather', serif; /* Typographie élégante pour le titre */
+    color: #2d89ef; /* Titre bleu */
+    text-align: center; /* Centrer le titre */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.fin-vie p {
+    font-family: 'Roboto', sans-serif; /* Texte en Roboto pour une lecture fluide */
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.fin-vie .highlight2 {
+    font-size: 1.1rem;
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #2d89ef;
+    font-style: italic;
+}
+
+.fin-vie iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
